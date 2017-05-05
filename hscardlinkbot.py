@@ -13,7 +13,7 @@ with open('AllSets.json') as f:
 imglinkbase = "(http://wow.zamimg.com/images/hearthstone/cards/enus/original/" 
 png = ".png)"
 
-r = praw.Reddit('Hearthstone Card Linker 1.2 by u/distinctvagueness')
+r = praw.Reddit('Hearthstone Card Linker 1.2')
 r.login('USERNAME','PASSWORD)')
 
 already_done = set()
