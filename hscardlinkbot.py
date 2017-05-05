@@ -87,7 +87,6 @@ for comment in praw.helpers.comment_stream(r, "bottest"):
                     if "text" in card:
                         words += "  \nText: " +re.sub("<[^>]*>",'**',card["text"].encode('ascii', 'ignore'))
                     words += "  \n\n"
-                words += "If you think there is a problem with this post, contact /u/distinctvagueness"
                 comment.reply(words.encode('ascii', 'ignore'))
                 already_done.add(comment.id)  
         except Exception as inst:
