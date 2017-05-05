@@ -1,5 +1,4 @@
 """
-**someredditusername by /u/distinctvagueness**
 *Inspired by people on /r/hearthstone*
 """
 import praw
